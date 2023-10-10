@@ -1,0 +1,37 @@
+body {
+  font-family: "Times New Roman", Times, serif; 
+  --bs-body-bg: var(--bs-gray-100);
+  background-color: rgb(0, 0, 0);
+}
+
+#main {
+  margin: 150px auto; 
+  padding: 10px;
+}
+
+#marco {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  background-color: #ff0303;
+  width: 80%;
+  padding: 5px;
+  font-family: "Verdana", Arial, sans-serif; 
+}
+
+.table {
+  --bs-table-color: var(--bs-gray-600);
+  --bs-table-bg: var(--bs-gray-100);
+  --bs-table-border-color: transparent;
+}
+
+.tarjeta {
+  padding: 10px;
+  font-family: "Courier New", monospace; 
+  font-size: 20px;
+}
+
+label {
+  font-weight: bold;
+  padding: 5px;
+}
